@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Game from './pages/Game';
 import Home from './pages/Home';
 
-function App() {
+const App:React.FC = () => {
 
 
   const routes = 
@@ -14,7 +14,6 @@ function App() {
   </Routes>
           
           
-
   return (
     <>
         {routes}
